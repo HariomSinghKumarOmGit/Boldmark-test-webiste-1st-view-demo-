@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#111] text-gray-400 py-12 px-6 flex flex-col items-center justify-center">
-      <div className="max-w-4xl w-full flex flex-col md:flex-row justify-between items-center gap-6">
+    <footer className="w-full bg-[#111] text-gray-400 py-8 md:py-12 px-4 md:px-6 flex flex-col items-center justify-center">
+      <div className="max-w-4xl w-full flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6 text-center md:text-left">
         <div>
-          <h2 className="text-2xl font-bold text-white mb-2">Company Name</h2>
-          <p className="text-sm">Innovating the future, one step at a time.</p>
+          <h2 className="text-xl md:text-2xl font-bold text-white mb-2">Company Name</h2>
+          <p className="text-xs md:text-sm">Innovating the future, one step at a time.</p>
         </div>
         <div className="flex gap-6">
           <a href="#" className="hover:text-cyan-400 transition-colors">About</a>
