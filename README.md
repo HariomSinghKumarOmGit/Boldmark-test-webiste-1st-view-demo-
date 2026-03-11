@@ -4,17 +4,52 @@
 
 # Run and deploy your AI Studio app
 
-This contains everything you need to run your app locally.
+This repository contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/1f391511-b4d0-43ba-a485-9d1713c4acd6
+## About this Project
 
-## Run Locally
+Boldmark test website - a simple demo application built with AI Studio.
 
-**Prerequisites:**  Node.js
+## Latest Update
+**Updated:** README has been enhanced with better documentation.
 
+## Prerequisites
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Node.js (current lts version)
+- Gemini API key
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HariomSinghKumarOmGit/Boldmark-test-webiste-1st-view-demo-.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   cd Boldmark-test-webiste-1st-view-demo-
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create ```.env.local``` and add your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+## Running the App
+
+### Development mode
+
+```bash
+npm run dev
+```
+
+## View Your App
+
+You can view your app in AI Studio:
+- [AI Studio App Link](https://ai.studio/apps/1f391511-b4d0-43ba-a485-9d1713c4acd6)
+
+## License
+
+This project is open source and available under the MIT License.
